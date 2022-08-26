@@ -28,6 +28,12 @@
     }
 }
 
+@media screen and (min-width: 481px) {
+    .mobile-menu-open{
+        display: none;
+    }
+}
+
 // .page-header-container {
 //     display: flex;
 //     align-items: center;
