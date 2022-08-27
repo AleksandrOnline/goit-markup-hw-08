@@ -508,6 +508,16 @@ footer {
   margin-top: 16px;
 }
 
+@media screen and (max-width: 480px) {
+  .team {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .foto-teams {
+    width: 450px;
+    height: 460px;
+  }
+}
 @media screen and (width: 480px) {
   .section-mobile-hidden {
     position: absolute;
