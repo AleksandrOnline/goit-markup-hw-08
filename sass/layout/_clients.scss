@@ -1,4 +1,6 @@
 .client-list {
+    display: flex;
+    align-items: center;
     justify-content: center;
     gap: 30px;
 }
@@ -29,4 +31,16 @@
     .client-link:focus & {
         fill: var(--accent-color);
     }
+}
+
+@media screen and(max-width:480px) {
+    .client-list{
+        flex-wrap: wrap;
+align-content: center;
+    }
+    .client-link{
+        width: 210px;
+        height: 92px;
+    }
+
 }
