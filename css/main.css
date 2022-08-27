@@ -53,7 +53,7 @@ footer {
   padding-right: 15px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 481px) {
   .container {
     width: 450px;
     margin-left: auto;
@@ -139,19 +139,23 @@ footer {
     display: none;
   }
 }
-.logo {
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-  text-decoration: none;
-  list-style: none;
-  margin-right: 93px;
+@media screen {
+  .studio-header {
+    color: #000000;
+  }
+  .logo {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+    list-style: none;
+    margin-right: 93px;
+  }
 }
-
 .footer {
   background-color: var(--background-color-dark);
   padding-top: 60px;
