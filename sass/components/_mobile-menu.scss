@@ -32,7 +32,9 @@
     
     .mobile-menu__container{
         position: relative;
+        padding-left: 25px;
     }
+    
     .mobile-menu__close-btn{
         background-color: #fff;
         border: none;
@@ -120,6 +122,15 @@ color: #757575;
     .mobile-menu__border-block{
         border: 1px solid rgba(33, 33, 33, 0.2);
     }
+}
+
+@media screen and(max-width:480px) {
+    .modal{
+        position: absolute;
+        width: 450px;
+        height: 609px;
+    }
+    
 }
 
 @media screen and (min-width: 768px) {

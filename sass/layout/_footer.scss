@@ -19,7 +19,6 @@
 }
 
 .find__addres {
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -173,4 +172,55 @@
     width: 24px;
     height: 24px;
     margin-left: 10px;
+}
+
+@media screen and(max-width:480px) {
+    .footer-block{
+        flex-direction: column;
+align-items: center;
+gap: 60px;
+    }
+    
+    .footer{
+        height: 603px;
+    }
+
+    .logo-footer{
+        text-align: center;
+    }
+    .logo{
+        margin-right: 0;
+    }
+    .social-link-footer{
+        text-align: center;
+        padding-top: 0;
+    }
+    .text-footer-form{
+        align-items: center;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+    .modal-footer-form{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-modal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .send-email-footer{
+        margin-left: 0;
+    }
+    .contacts{
+        display: flex;
+        
+    }
+    .contacts__find:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+
 }
