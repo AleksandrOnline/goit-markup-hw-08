@@ -123,6 +123,12 @@ footer {
     padding-bottom: 0;
   }
 }
+@media screen and (max-width: 1199px) {
+  .page-header-home {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
 
 .page-header {
   padding-top: 24px;
@@ -272,6 +278,20 @@ footer {
     padding-top: 9px;
     padding-bottom: 9px;
     padding-right: 10px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .header-contacts {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .email {
+    margin-right: 0;
+  }
+  .container__contacts-header {
+    font-size: 12px;
+    line-height: 1.2;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -519,6 +539,27 @@ footer {
     width: 450px;
   }
 }
+@media screen and (max-width: 1199px) {
+  .footer-block {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer {
+    height: 463px;
+  }
+  .text-footer-form {
+    justify-content: center;
+  }
+  .modal-footer-form {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .social-link-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .list {
   list-style: none;
 }
@@ -664,6 +705,17 @@ footer {
     padding-bottom: 94px;
   }
 }
+@media screen and (max-width: 1199px) {
+  .features {
+    width: 354px;
+    height: 224px;
+  }
+  .company-characteristics {
+    width: 738px;
+    height: 480px;
+    flex-wrap: wrap;
+  }
+}
 .section__banner {
   font-style: normal;
   font-weight: 700;
@@ -729,6 +781,11 @@ footer {
   .foto-teams {
     width: 450px;
     height: 460px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .team {
+    flex-wrap: wrap;
   }
 }
 .company-option {
@@ -818,6 +875,11 @@ footer {
   .client-link {
     width: 210px;
     height: 92px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .client-list {
+    flex-wrap: wrap;
   }
 }
 .backdrop {
@@ -1277,6 +1339,11 @@ footer {
 }
 @media screen and (min-width: 768px) {
   .mobile-menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu-open {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */

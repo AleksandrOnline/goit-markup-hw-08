@@ -63,3 +63,16 @@
             padding-bottom: 94px;
         }
     }
+
+    @media screen and(max-width:1199px) {
+.features{
+    width: 354px;
+    height: 224px;
+}
+
+        .company-characteristics{
+            width: 738px;
+            height: 480px;
+            flex-wrap: wrap;
+        }
+    }

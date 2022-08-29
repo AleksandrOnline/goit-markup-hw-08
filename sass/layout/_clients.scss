@@ -44,3 +44,8 @@ align-content: center;
     }
 
 }
+@media screen and(max-width:1199px) {
+    .client-list{
+        flex-wrap: wrap;
+    }
+}
