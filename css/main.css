@@ -1283,7 +1283,7 @@ footer {
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 10000;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -1292,13 +1292,15 @@ footer {
   .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
-    pointer-events: avto;
+    pointer-events: auto;
     width: 480px;
     height: 796px;
   }
   .mobile-menu__container {
     position: relative;
     padding-left: 25px;
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
   .mobile-menu__close-btn {
     background-color: #fff;
@@ -1322,9 +1324,6 @@ footer {
     line-height: 47px;
     letter-spacing: 0.02em;
     color: #212121;
-  }
-  .mobile-menu__block-navigation {
-    margin-top: 48px;
   }
   .mobile-menu__link-navigation {
     color: var(--color-for-body);
