@@ -25,7 +25,7 @@
     .mobile-menu.is-open{
     opacity: 1;
     visibility: visible;
-    pointer-events: auto;;
+    pointer-events: auto;
     width: 480px;
     height: 796px;
     }
@@ -38,6 +38,7 @@
     }
     
     .mobile-menu__close-btn{
+
         background-color: #fff;
         border: none;
         padding: 0;
