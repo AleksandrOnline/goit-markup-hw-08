@@ -73,6 +73,10 @@ align-items: center;
 .employees-card-content-wrapper {
     border: 1px solid #EEEEEE;
     padding: 20px 24px;
+    @media screen and(max-width:1199px) {
+        padding-right: 11px;
+    }
+
 }
 
 .projects__overlay {
@@ -103,3 +107,4 @@ align-items: center;
     position: relative;
     overflow: hidden;
 }
+

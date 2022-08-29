@@ -1191,6 +1191,11 @@ footer {
   border: 1px solid #EEEEEE;
   padding: 20px 24px;
 }
+@media screen and (max-width: 1199px) {
+  .employees-card-content-wrapper {
+    padding-right: 11px;
+  }
+}
 
 .projects__overlay {
   font-family: var(--secondary-font);
