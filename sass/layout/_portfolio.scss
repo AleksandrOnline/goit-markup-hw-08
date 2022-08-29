@@ -2,14 +2,14 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    @media screen and(min-width:320px) {
-
+    gap: 8px;
+    @media screen and(max-width:767px) {
+        justify-content: start;
+flex-wrap: wrap;
+align-content: flex-start;
     }
 }
 
-.navigation__item:not(:last-child) {
-    margin-right: 8px;
-}
 
 .item__button {
     font-style: normal;
@@ -39,6 +39,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    @media screen and(max-width:767px) {
+        flex-direction: column;
+align-items: center;
+    }
 }
 
 .presentation__projects {
