@@ -861,8 +861,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   fill: currentColor;
@@ -895,6 +893,10 @@ footer {
 @media screen and (max-width: 1199px) {
   .client-list {
     flex-wrap: wrap;
+  }
+  .clients-icon {
+    width: 106px;
+    height: 60px;
   }
 }
 .backdrop {
