@@ -675,11 +675,6 @@ footer {
   width: 270px;
 }
 
-.features__svg {
-  width: 270px;
-  height: 120px;
-}
-
 .features__heading {
   font-style: normal;
   font-weight: 700;
@@ -729,6 +724,15 @@ footer {
     width: 738px;
     height: 480px;
     flex-wrap: wrap;
+  }
+  .features__svg {
+    background-color: #f5f4fa;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .features__svg {
+    width: 270px;
+    height: 120px;
   }
 }
 .section__banner {
