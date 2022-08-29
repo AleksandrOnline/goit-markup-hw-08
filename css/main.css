@@ -1293,7 +1293,6 @@ footer {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    width: 480px;
     height: 796px;
   }
   .mobile-menu__container {
