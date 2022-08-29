@@ -759,7 +759,7 @@ footer {
   height: 70px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section-mobile-hidden {
     position: absolute;
     white-space: nowrap;

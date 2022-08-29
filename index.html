@@ -152,28 +152,52 @@
                 <h2 class="section__banner">Чим ми займаємося</h2>
             <ul class="list company-option">
                 <li class="company-option__foto">
-                    <img
-                    srcset="./images/services_sector/development.jpg 1x, ./images/services_sector/development@2x.png 2x"
-                    src="./images/services_sector/development.jpg" 
-                    alt="Фото разработки продукта" width="370" height="294">
+                    <picture>
+                        <source 
+                        srcset="./images/services_sector/development.webp 1x, ./images/services_sector/development@2x.webp 2x" 
+                        type="image/webp">
+
+                        <source 
+                        srcset="./images/services_sector/development.jpg 1x, ./images/services_sector/development@2x.jpg 2x">
+
+                        <img
+                        srcset="./images/services_sector/development.jpg 1x, ./images/services_sector/development@2x.png 2x"
+                        src="./images/services_sector/development.jpg" 
+                        alt="Фото разработки продукта" width="370" height="294">
+                    </picture>
 
                     <p class="company-option__text">
                         Десктопні додатки
                     </p></li>
                 <li class="company-option__foto">
-                    <img
-                    srcset="./images/services_sector/optimization.jpg 1x, ./images/services_sector/optimization@2x.png 2x"
-                    src="./images/services_sector/optimization.jpg" 
-                    alt="Фото оптимизации продукта" width="370" height="294">
+                    <picture>
+                        <source srcset="./images/services_sector/optimization.webp 1x, ./images/services_sector/optimization@2x.webp 2x" 
+                        type="image/webp">
+
+                        <source srcset="./images/services_sector/optimization.jpg 1x, ./images/services_sector/optimization@2x.jpg 2x">
+
+                        <img
+                        srcset="./images/services_sector/optimization.jpg 1x, ./images/services_sector/optimization@2x.png 2x"
+                        src="./images/services_sector/optimization.jpg" 
+                        alt="Фото оптимизации продукта" width="370" height="294">
+                    </picture>
 
                     <p class="company-option__text">
                         Мобільні додатки
                     </p></li>
                 <li class="company-option__foto">
-                    <img
-                    srcset="./images/services_sector/design.jpg 1x, ./images/services_sector/design@2x.png 2x"
-                    src="./images/services_sector/design.jpg" 
-                    alt="Фото разработки дизайна продукта" width="370" height="294">
+                    <picture>
+                        <source srcset="./images/services_sector/design.webp 1x, ./images/services_sector/design@2x.webp 2x" 
+                        type="image/webp">
+
+                        <source srcset="./images/services_sector/design.jpg 1x, ./images/services_sector/design@2x.jpg 2x">
+
+
+                        <img
+                        srcset="./images/services_sector/design.jpg 1x, ./images/services_sector/design@2x.png 2x"
+                        src="./images/services_sector/design.jpg" 
+                        alt="Фото разработки дизайна продукта" width="370" height="294">
+                    </picture>
 
                     <p class="company-option__text">
                         Дизайнерські рішення
@@ -187,11 +211,40 @@
             <h2 class="section__banner">Наша команда</h2>
             <ul class="list team">
                 <li class="team-members">
-                    <img 
-                    class="foto-teams" 
-                    srcset="./images/team/product_designer.png 1x, ./images/team/product_designer@2x.png 2x, ./images/team/product_designer@3x.png 3x"
-                    src="./images/team/product_designer.jpg" alt="Фото дизайнера продукта" width="270"
-                        height="260">
+<picture>
+    <source srcset="./images/team/product_designer.webp 1x, ./images/team/product_designer@2x.webp 2x, ./images/team/product_designer@3x.webp 3x"
+    media="(min-width: 1200px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/tablet/product_designer-tablet.webp 1x, ./images/team/tablet/product_designer-tablet@2x.webp 2x, ./images/team/tablet/product_designer-tablet@3x.webp 3x"
+    media="(min-width: 768px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/mobile-team/product_designer-mobile.webp 1x, ./images/team/mobile-team/product_designer-mobile@2x.webp 2x, ./images/team/mobile-team/product_designer-mobile@3x.webp 3x"
+    media="(max-width: 767px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/product_designer.jpg 1x, ./images/team/product_designer@2x.jpg 2x, ./images/team/product_designer@3x.jpg 3x"
+    media="(min-width: 1200px)">
+
+
+    <source srcset="./images/team/tablet/product_designer-tablet.jpg 1x, ./images/team/tablet/product_designer-tablet@2x.jpg 2x, ./images/team/tablet/product_designer-tablet@3x.jpg 3x"
+    media="(min-width: 768px)">
+
+
+    <source srcset="./images/team/mobile-team/product_designer-mobile.jpg 1x, ./images/team/mobile-team/product_designer-mobile@2x.jpg 2x, ./images/team/mobile-team/product_designer-mobile@3x.jpg 3x"
+    media="(max-width: 767px)">
+
+    <img 
+    class="foto-teams" 
+    srcset="./images/team/product_designer.png 1x, ./images/team/product_designer@2x.png 2x, ./images/team/product_designer@3x.png 3x"
+    src="./images/team/product_designer.jpg" 
+    alt="Фото дизайнера продукта">
+</picture>
+
                         <div class="name-profession">
                     <h3 class="name">Ігор Дем'яненко</h3>
                     <p class="profession" lang="en">Product Designer</p>
@@ -228,11 +281,40 @@
                         </div>
                 </li>
                 <li class="team-members">
-                    <img 
-                    class="foto-teams" 
-                    srcset="./images/team/frontent_developer.png 1x, ./images/team/frontent_developer@2x.png 2x, ./images/team/frontent_developer@3x.jpg 3x"
-                    src="./images/team/frontent_developer.jpg" alt="Фото фронтенд-разработчика" width="270"
-                        height="260">
+<picture>
+    <source srcset="./images/team/frontent_developer.webp 1x, ./images/team/frontent_developer@2x.webp 2x, ./images/team/frontent_developer@3x.webp 3x"
+    media="(min-width: 1200px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/tablet/frontent_developer-tablet.webp 1x, ./images/team/tablet/frontent_developer-tablet@2x.webp 2x, ./images/team/tablet/frontent_developer-tablet@3x.webp 3x"
+    media="(min-width: 768px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/mobile-team/frontent_developer-mobile.webp 1x, ./images/team/mobile-team/frontent_developer-mobile@2x.webp 2x, ./images/team/mobile-team/frontent_developer-mobile@3x.webp 3x"
+    media="(max-width: 767px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/frontent_developer.jpg 1x, ./images/team/frontent_developer@2x.jpg 2x, ./images/team/frontent_developer@3x.jpg 3x"
+    media="(min-width: 1200px)">
+
+
+    <source srcset="./images/team/tablet/frontent_developer-tablet.jpg 1x, ./images/team/tablet/frontent_developer-tablet@2x.jpg 2x, ./images/team/tablet/frontent_developer-tablet@3x.jpg 3x"
+    media="(min-width: 768px)">
+
+
+    <source srcset="./images/team/mobile-team/frontent_developer-mobile.jpg 1x, ./images/team/mobile-team/frontent_developer-mobile@2x.jpg 2x, ./images/team/mobile-team/frontent_developer-mobile@3x.jpg 3x"
+    media="(max-width: 767px)">
+
+
+    <img 
+    class="foto-teams" 
+    srcset="./images/team/frontent_developer.png 1x, ./images/team/frontent_developer@2x.png 2x, ./images/team/frontent_developer@3x.jpg 3x"
+    src="./images/team/frontent_developer.jpg" alt="Фото фронтенд-разработчика">
+</picture>
+
                         <div class="name-profession">
                         <h3 class="name">Ольга Рєпіна</h3>
                     <p class="profession" lang="en">Frontend Developer</p>
@@ -269,10 +351,41 @@
                         </div>
                 </li>
                 <li class="team-members">
-                    <img 
-                    class="foto-teams" 
-                    srcset="./images/team/marketing.png 1x, ./images/team/marketing@2x.png 2x, ./images/team/marketing@3x.jpg 3x"
-                    src="./images/team/marketing.jpg" alt="Фото маркетолога" width="270" height="260">
+<picture>
+    <source srcset="./images/team/marketing.webp 1x, ./images/team/marketing@2x.webp 2x, ./images/team/marketing@3x.webp 3x"
+    media="(min-width: 1200px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/tablet/marketing-tablet.webp 1x, ./images/team/tablet/marketing-tablet@2x.webp 2x, ./images/team/tablet/marketing-tablet@3x.webp 3x"
+    media="(min-width: 768px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/mobile-team/marketing-mobile.webp 1x, ./images/team/mobile-team/marketing-mobile@2x.webp 2x, ./images/team/mobile-team/marketing-mobile@3x.webp 3x"
+    media="(max-width: 767px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/marketing.jpg 1x, ./images/team/marketing@2x.jpg 2x, ./images/team/marketing@3x.jpg 3x"
+    media="(min-width: 1200px)">
+
+
+    <source srcset="./images/team/tablet/marketing-tablet.jpg 1x, ./images/team/tablet/marketing-tablet@2x.jpg 2x, ./images/team/tablet/marketing-tablet@3x.jpg 3x"
+    media="(min-width: 768px)">
+
+
+    <source srcset="./images/team/mobile-team/marketing-mobile.jpg 1x, ./images/team/mobile-team/marketing-mobile@2x.jpg 2x, ./images/team/mobile-team/marketing-mobile@3x.jpg 3x"
+    media="(max-width: 767px)">
+
+
+    <img 
+    class="foto-teams" 
+    srcset="./images/team/marketing.png 1x, ./images/team/marketing@2x.png 2x, ./images/team/marketing@3x.jpg 3x"
+    src="./images/team/marketing.jpg" 
+    alt="Фото маркетолога">
+</picture>
+
                     <div class="name-profession">
                         <h3 class="name">Микола Тарасов</h3>
                         <p class="profession" lang="en">Marketing</p>
@@ -310,11 +423,41 @@
                     
                 </li>
                 <li class="team-members">
-                    <img 
-                    class="foto-teams" 
-                    srcset="./images/team/ui_designer.png 1x, ./images/team/ui_designer@2x.png 2x, ./images/team/ui_designer@3x.jpg 3x"
-                    src="./images/team/ui_designer.jpg" alt="Фото дизайнера пользовательского интерфейса"
-                        width="270" height="260">
+<picture>
+    <source srcset="./images/team/ui_designer.webp 1x, ./images/team/ui_designer@2x.webp 2x, ./images/team/ui_designer@3x.webp 3x"
+    media="(min-width: 1200px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/tablet/ui_designer-tablet.webp 1x, ./images/team/tablet/ui_designer-tablet@2x.webp 2x, ./images/team/tablet/ui_designer-tablet@3x.webp 3x"
+    media="(min-width: 768px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/mobile-team/ui_designer-mobile.webp 1x, ./images/team/mobile-team/ui_designer-mobile@2x.webp 2x, ./images/team/mobile-team/ui_designer-mobile@3x.webp 3x"
+    media="(max-width: 767px)"
+    type="image/webp">
+
+
+    <source srcset="./images/team/ui_designer.jpg 1x, ./images/team/ui_designer@2x.jpg 2x, ./images/team/ui_designer@3x.jpg 3x"
+    media="(min-width: 1200px)">
+
+
+    <source srcset="./images/team/tablet/ui_designer-tablet.jpg 1x, ./images/team/tablet/ui_designer-tablet@2x.jpg 2x, ./images/team/tablet/ui_designer-tablet@3x.jpg 3x"
+    media="(min-width: 768px)">
+
+
+    <source srcset="./images/team/mobile-team/ui_designer-mobile.jpg 1x, ./images/team/mobile-team/ui_designer-mobile@2x.jpg 2x, ./images/team/mobile-team/ui_designer-mobile@3x.jpg 3x"
+    media="(max-width: 767px)">
+
+
+    <img 
+    class="foto-teams" 
+    srcset="./images/team/ui_designer.png 1x, ./images/team/ui_designer@2x.png 2x, ./images/team/ui_designer@3x.jpg 3x"
+    src="./images/team/ui_designer.jpg" 
+    alt="Фото дизайнера пользовательского интерфейса">
+</picture>
+
                         <div class="name-profession">
                             <h3 class="name">Михайло Єрмаков</h3>
                             <p class="profession" lang="en">UI Designer</p>
