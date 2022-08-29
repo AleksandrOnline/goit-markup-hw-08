@@ -232,8 +232,14 @@ footer {
   border-radius: 2px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .header-contacts {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  .menu__item {
     display: none;
   }
   .mobile-menu-open {
@@ -246,20 +252,12 @@ footer {
     width: 40px;
     height: 40px;
   }
-  .menu__item {
-    display: none;
-  }
   .page-header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 16px;
     padding-bottom: 16px;
-  }
-}
-@media screen and (min-width: 481px) {
-  .mobile-menu-open {
-    display: none;
   }
 }
 @media screen {
@@ -448,7 +446,7 @@ footer {
   margin-left: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .footer-block {
     flex-direction: column;
     align-items: center;
@@ -492,6 +490,9 @@ footer {
   .contacts__find:not(:last-child) {
     margin-bottom: 8px;
   }
+  .modal-form-input-footer {
+    width: 450px;
+  }
 }
 .list {
   list-style: none;
@@ -521,14 +522,13 @@ footer {
 
 .title {
   background-color: #C4C4C4;
-  width: 1600px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   align-items: center;
   background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(/images/title/mobile-title.jpg);
   background-size: cover;
+  height: 400px;
 }
 @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .title {
@@ -542,33 +542,43 @@ footer {
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .title {
+    height: 400px;
     background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(/images/title/tablet-title@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
   .title {
+    height: 600px;
     background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(/images/title/desktop-title.jpg);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .title {
+    height: 600px;
     background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(/images/title/desktop-title@2x.png);
   }
 }
 
 .title-name {
+  font-size: 26px;
+  line-height: 1.6;
   font-style: normal;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
-  width: 696px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  width: 360px;
+}
+@media screen and (min-width: 1200px) {
+  .title-name {
+    font-size: 44px;
+    line-height: 1.4;
+    width: 696px;
+  }
 }
 
 .section-hidden-inventori {
@@ -607,7 +617,7 @@ footer {
   color: #757575;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .company-characteristics {
     flex-direction: column;
     align-items: center;
@@ -686,7 +696,7 @@ footer {
   margin-top: 16px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .team {
     flex-direction: column;
     justify-content: center;
@@ -694,20 +704,6 @@ footer {
   .foto-teams {
     width: 450px;
     height: 460px;
-  }
-}
-@media screen and (width: 480px) {
-  .section-mobile-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
   }
 }
 .company-option {
@@ -738,6 +734,20 @@ footer {
   height: 70px;
 }
 
+@media screen and (max-width: 767px) {
+  .section-mobile-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+}
 .menu {
   display: flex;
   align-items: center;
@@ -775,7 +785,7 @@ footer {
   fill: var(--accent-color);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .client-list {
     flex-wrap: wrap;
     align-content: center;
