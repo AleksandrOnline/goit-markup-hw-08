@@ -62,3 +62,9 @@ line-height: 1.6;
     }
 
 }
+
+@media screen and(max-width:479px) {
+    .title-name{
+        width: 100%;
+    }
+}

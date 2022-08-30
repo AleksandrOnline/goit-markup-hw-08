@@ -63,3 +63,9 @@
         flex-wrap: wrap;
     }
 }
+
+@media screen and(max-width:479px) {
+    .foto-teams{
+        width: 100%;
+    }
+}

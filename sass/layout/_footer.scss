@@ -270,3 +270,9 @@ gap: 60px;
         width: 450px;
     }
 }
+
+@media screen and(max-width:479px) {
+    .modal-form-input-footer{
+        width: 100%;
+    }
+}

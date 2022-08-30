@@ -91,3 +91,9 @@ text-align: center;
         padding-bottom: 94px;
     }
 }
+
+@media screen and(max-width:479px) {
+    .features__svg{
+        width: 100%;
+    }
+}
