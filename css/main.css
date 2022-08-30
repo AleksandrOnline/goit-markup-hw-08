@@ -523,6 +523,7 @@ footer {
   }
   .text-footer-form {
     justify-content: flex-start;
+    padding-top: 10px;
   }
   .modal-footer-form {
     flex-direction: row;
@@ -897,10 +898,6 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-  .client-list {
-    flex-wrap: wrap;
-    align-content: center;
-  }
   .client-link {
     width: 210px;
     height: 92px;
@@ -1385,11 +1382,6 @@ footer {
 }
 @media screen and (min-width: 768px) {
   .mobile-menu {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) {
-  .mobile-menu-open {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */
