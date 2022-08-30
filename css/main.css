@@ -298,6 +298,11 @@ footer {
     display: none;
   }
 }
+@media screen and (max-width: 479) {
+  .container {
+    width: auto;
+  }
+}
 .studio-header {
   color: #000000;
 }
